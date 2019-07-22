@@ -2348,7 +2348,8 @@ pre .javascript .function {
 }
 .site-uv,
 .site-pv,
-.page-pv {
+.page-pv,
+.busuanzi-value {
   display: inline-block;
 }
 .site-uv .busuanzi-value,
