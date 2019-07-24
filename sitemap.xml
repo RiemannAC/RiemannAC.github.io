@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://riemannac.github.io/posts/image/</loc>
+    
+    <lastmod>2019-07-24T08:34:24.884Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://riemannac.github.io/posts/hello-world/</loc>
     
-    <lastmod>2019-07-24T03:03:05.793Z</lastmod>
+    <lastmod>2019-07-24T07:59:18.083Z</lastmod>
     
   </url>
   

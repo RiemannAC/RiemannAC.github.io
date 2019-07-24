@@ -87,10 +87,13 @@
 <meta property="og:site_name" content="Riemann&#39;s Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-07-24T03:03:05.793Z">
+<meta property="og:image" content="https://i.imgur.com/lEV8d5qh.png">
+<meta property="og:image" content="https://i.imgur.com/Tco6sIW.png">
+<meta property="og:updated_time" content="2019-07-24T07:59:18.083Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:image" content="https://i.imgur.com/lEV8d5qh.png">
 
 
 
@@ -299,7 +302,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Riemann">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar 400x400.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -410,10 +413,16 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
+<h3 id="Code-with-path"><a href="#Code-with-path" class="headerlink" title="Code with path"></a>Code with path</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#123;%</span> <span class="string">codeblock</span> <span class="string">_config.yml</span> <span class="string">%&#125;</span></span><br><span class="line"><span class="comment"># Sitemap</span></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="string">&#123;%</span> <span class="string">endcodeblock</span> <span class="string">%&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure>
+
 <h3 id="MathJax"><a href="#MathJax" class="headerlink" title="MathJax"></a>MathJax</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$x^&#123;y^z&#125;=(1+&#123;\rm e&#125;^x)^&#123;-2xy^w&#125;$</span><br></pre></td></tr></table></figure>
 
 <p>$x^{y^z}=(1+{\rm e}^x)^{-2xy^w}$</p>
 <p>More info: <a href="https://www.zybuluo.com/knight/note/96093" target="_blank" rel="noopener">MathJax</a></p>
+<h3 id="Imgur"><a href="#Imgur" class="headerlink" title="Imgur"></a>Imgur</h3><p><img src="https://i.imgur.com/lEV8d5qh.png" alt="Here is alt desc"></p>
+<p><img src="https://i.imgur.com/Tco6sIW.png" alt></p>
 
       
     </div>
@@ -442,6 +451,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/image/" rel="prev" title="Image">
+                Image <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -514,7 +539,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Riemann">
+              <img class="site-author-image" itemprop="image" src="/images/avatar 400x400.jpg" alt="Riemann">
             
               <p class="site-author-name" itemprop="name">Riemann</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -527,7 +552,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -604,7 +629,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MathJax"><span class="nav-number">1.5.</span> <span class="nav-text">MathJax</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code-with-path"><span class="nav-number">1.5.</span> <span class="nav-text">Code with path</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MathJax"><span class="nav-number">1.6.</span> <span class="nav-text">MathJax</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Imgur"><span class="nav-number">1.7.</span> <span class="nav-text">Imgur</span></a></li></ol></li></ol></div>
             
 
           </div>
