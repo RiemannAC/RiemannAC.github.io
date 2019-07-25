@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[新增Post]]></title>
+    <url>%2Fposts%2F%E6%96%B0%E5%A2%9EPost%2F</url>
+    <content type="text"><![CDATA[設定 ScaffoldsScaffolds 預設三種模型，比較常用的是 Post 按照需求設定 Front-matter 區域 blog/scaffolds/post.md12345678910111213141516---title: 新增Postdate: 1564030452000tags:categories:summary_img: # 文章摘要封面author:---&lt;!-- 以下本文皆會顯示 --&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.&lt;!-- Mac 上剛好整頁高度的版型 --&gt;&lt;!-- more --&gt; 新增 Post可直接新增 md 檔編輯，也可以使用指令生成可以指定套用版型免去設定麻煩 1$ hexo new [layout] &lt;title&gt; 1$ hexo new "文章標題" 生成預設 Post 版型，直接使用 Markdown 編輯文章即可 預覽啟動本地伺服查看文章 1$ hexo server server 可簡化為 s 有編輯同步更新預覽功能，儲存文章後可即時觀察結果]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Syntax</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[設置文章封面圖片(文章內不顯示)]]></title>
     <url>%2Fposts%2F%E9%A6%96%E9%A0%81%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E5%B0%81%E9%9D%A2%E6%B8%AC%E8%A9%A6%2F</url>
-    <content type="text"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.]]></content>
+    <content type="text"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.]]></content>
       <categories>
         <category>Hexo 客製化</category>
       </categories>
@@ -18,7 +29,7 @@
     <url>%2Fposts%2F%E8%A8%AD%E7%BD%AE%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2%E6%91%98%E8%A6%81%E5%9C%96%E7%89%87%2F</url>
     <content type="text"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, labore, distinctio! Quaerat sed explicabo labore, maiores beatae corporis harum. Atque laudantium facilis qui. Vero quo, sunt adipisci ea aspernatur beatae.]]></content>
       <categories>
-        <category>Hexo 客製化</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Swig</tag>
