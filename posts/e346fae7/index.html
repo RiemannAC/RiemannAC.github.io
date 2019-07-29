@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Permalinks,">
+  <meta name="keywords" content="Anchor,Markdown,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="按照官方文件的預設在 _config.yml 用 permalink: :year/:month/:day/:title/ 做為 url">
-<meta name="keywords" content="Permalinks">
+<meta name="description" content="HackMD 用習慣了，和 Hexo 的 Markdown 還是有些不同，編輯整理資料時有錨點還是比較方便，查了一下 Markdown 的語法，發現只使用 Markdown 的狀況，還是可以增加錨點">
+<meta name="keywords" content="Anchor,Markdown">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo-永久連結設定">
-<meta property="og:url" content="https://riemannac.github.io/posts/d3aa7087/index.html">
+<meta property="og:title" content="為標題增加錨點">
+<meta property="og:url" content="https://riemannac.github.io/posts/e346fae7/index.html">
 <meta property="og:site_name" content="Riemann&#39;s Blog">
-<meta property="og:description" content="按照官方文件的預設在 _config.yml 用 permalink: :year/:month/:day/:title/ 做為 url">
+<meta property="og:description" content="HackMD 用習慣了，和 Hexo 的 Markdown 還是有些不同，編輯整理資料時有錨點還是比較方便，查了一下 Markdown 的語法，發現只使用 Markdown 的狀況，還是可以增加錨點">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-07-26T13:32:43.602Z">
+<meta property="og:updated_time" content="2019-07-29T18:53:48.869Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo-永久連結設定">
-<meta name="twitter:description" content="按照官方文件的預設在 _config.yml 用 permalink: :year/:month/:day/:title/ 做為 url">
+<meta name="twitter:title" content="為標題增加錨點">
+<meta name="twitter:description" content="HackMD 用習慣了，和 Hexo 的 Markdown 還是有些不同，編輯整理資料時有錨點還是比較方便，查了一下 Markdown 的語法，發現只使用 Markdown 的狀況，還是可以增加錨點">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://riemannac.github.io/posts/d3aa7087/">
+  <link rel="canonical" href="https://riemannac.github.io/posts/e346fae7/">
 
 
 
 
 
-  <title>Hexo-永久連結設定 | Riemann's Blog</title>
+  <title>為標題增加錨點 | Riemann's Blog</title>
   
 
 
@@ -294,7 +294,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://riemannac.github.io/posts/d3aa7087/">
+    <link itemprop="mainEntityOfPage" href="https://riemannac.github.io/posts/e346fae7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Riemann">
@@ -311,7 +311,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Hexo-永久連結設定</h2>
+          <h2 class="post-title" itemprop="name headline">為標題增加錨點</h2>
         
 
         <div class="post-meta">
@@ -323,8 +323,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-07-25T14:53:12+08:00">
-                2019-07-25
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-07-30T00:26:47+08:00">
+                2019-07-30
               </time>
             
 
@@ -364,8 +364,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/d3aa7087/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="posts/d3aa7087/" itemprop="commentCount"></span>
+                <a href="/posts/e346fae7/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="posts/e346fae7/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -398,29 +398,52 @@
       
 
       
-        <p>按照官方文件的預設在 <code>_config.yml</code> 用 <code>permalink: :year/:month/:day/:title/</code> 做為 url</p>
+        <p><a href="https://hackmd.io" target="_blank" rel="noopener">HackMD</a> 用習慣了，和 Hexo 的 Markdown 還是有些不同，編輯整理資料時有錨點還是比較方便，查了一下 Markdown 的語法，發現只使用 Markdown 的狀況，還是可以增加錨點</p>
 <a id="more"></a>
 
-<p>這種配置由於 url 太多層不利於 SEO 而且若 title 使用中文則導致 url 內出現中文會造成很多問題</p>
-<p>另外 title 修改導致 url 變動，若使用 Disqus 第三方留言服務，也會造成留言流失的問題</p>
-<h2 id="解決辦法"><a href="#解決辦法" class="headerlink" title="解決辦法"></a>解決辦法</h2><p>一般有兩個方法，在此介紹第二種方法</p>
-<ol>
-<li>使用 urlname</li>
-<li>使用 hexo-abbrlink</li>
-</ol>
-<h2 id="使用-Hexo-abbrlink"><a href="#使用-Hexo-abbrlink" class="headerlink" title="使用 Hexo-abbrlink"></a>使用 Hexo-abbrlink</h2><p>使用 hexo-abbrlink 套件會自動生成唯一的連結，新增時不需要再增加 urlname 屬性，後期修改文章連結也不會變動。連結層級短，更利於 SEO ( 一般 SEO 只爬三層 )</p>
-<h3 id="安裝-hexo-abbrlink"><a href="#安裝-hexo-abbrlink" class="headerlink" title="安裝 hexo-abbrlink"></a>安裝 hexo-abbrlink</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+<h2 id="觀查-id-生成規則"><a href="#觀查-id-生成規則" class="headerlink" title="觀查 id 生成規則"></a><a href="#觀查-id-生成規則">觀查 id 生成規則</a></h2><p>Markdown 不同版本都有些細節不同，先觀查 id 生成規則如下表：</p>
+<table>
+<thead>
+<tr>
+<th align="left">Header</th>
+<th align="left">Identifier</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Header identifiers in HTML</td>
+<td align="left"><code>Header-identifiers-in-HTML</code></td>
+</tr>
+<tr>
+<td align="left">Dogs?-in my house?</td>
+<td align="left"><code>Dogs--in-my-house</code></td>
+</tr>
+<tr>
+<td align="left">[HTML], [S5], or [RTF]?</td>
+<td align="left">HTML-S5-or-RTF</td>
+</tr>
+<tr>
+<td align="left">3. Applications</td>
+<td align="left"><code>3-Applications</code></td>
+</tr>
+<tr>
+<td align="left">33</td>
+<td align="left">33</td>
+</tr>
+</tbody></table>
+<p>大小寫會被保留，符號會被去除，空格補上連字號</p>
+<h2 id="使用-Markdown-建立錨點"><a href="#使用-Markdown-建立錨點" class="headerlink" title="使用 Markdown 建立錨點"></a><a href="#使用-Markdown-建立錨點">使用 Markdown 建立錨點</a></h2><p>原標題</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">## 新增錨點</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="設定-yaml"><a href="#設定-yaml" class="headerlink" title="設定 yaml"></a>設定 yaml</h3><figure class="highlight plain"><figcaption><span>blog/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">permalink: posts/:abbrlink/</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  # support crc16(default) and crc32</span><br><span class="line">  rep: hex    # support dec(default) and hex</span><br></pre></td></tr></table></figure>
+<p>加上錨點</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">## [新增錨點](#新增錨點)</span></span><br></pre></td></tr></table></figure>
+
+<p>需要按照 id 生成規將連結指向標題的 id 若命名不同錨點就會失效</p>
+<p>如果錨點需要給定 “別名” 可參考此篇 <a href="https://theblog.mdluo.com/2018-02-11/heading-anchors-in-hexo/" target="_blank" rel="noopener">Hexo 里的标题锚点链接 | mdluo</a> ( 需要另外安裝套件 )</p>
+<h2 id="修改樣式"><a href="#修改樣式" class="headerlink" title="修改樣式"></a><a href="#修改樣式">修改樣式</a></h2><figure class="highlight scss"><figcaption><span>themes/next/source/css/_custom/custom.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自訂錨點樣式</span></span><br><span class="line"><span class="selector-tag">h1</span>:nth-child(2),</span><br><span class="line"><span class="selector-tag">h2</span>:nth-child(2), </span><br><span class="line"><span class="selector-tag">h3</span>:nth-child(2), </span><br><span class="line"><span class="selector-tag">h4</span>:nth-child(2), </span><br><span class="line"><span class="selector-tag">h5</span>:nth-child(2), </span><br><span class="line"><span class="selector-tag">h6</span>:nth-child(2) &#123;</span><br><span class="line">  <span class="comment">// 移除 a 預設下底線</span></span><br><span class="line">  <span class="attribute">border-bottom</span>: none;</span><br><span class="line">  <span class="comment">// 新增錨點 Pseudo-elements</span></span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    &amp;::before &#123;</span><br><span class="line">      <span class="attribute">content</span>: <span class="string">"#"</span>;</span><br><span class="line">      <span class="attribute">margin-left</span>: -<span class="number">0.8em</span>;</span><br><span class="line">      <span class="attribute">position</span>: absolute;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
-<h3 id="重新渲染頁面"><a href="#重新渲染頁面" class="headerlink" title="重新渲染頁面"></a>重新渲染頁面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-
-<p>可以發現每一篇 post 的 Front-matter 區域會自動生成一行 <code>abbrlink</code>，即使文章本身沒設定 <code>date</code> 也無妨</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">abbrlink:</span> <span class="string">d3aa7087</span></span><br></pre></td></tr></table></figure>
-
-<p>https://域名/posts/d3aa7087 即是此篇文章的 url</p>
-<p><strong>參考資料</strong><br><a href="https://github.com/rozbo/hexo-abbrlink" target="_blank" rel="noopener">rozbo/hexo-abbrlink</a><br><a href="https://blog.csdn.net/yanzi1225627/article/details/77761488" target="_blank" rel="noopener">hexo链接持久化终极解决之道</a></p>
+<p>滑鼠移到標題上便會出現錨點樣式 <font color="##0e83cd">#</font></p>
+<p><strong>參考資料</strong><br><a href="https://pages.tzengyuxio.me/pandoc/" target="_blank" rel="noopener">Pandoc’s Markdown 語法中文翻譯 | tzengyuxio</a><br><a href="https://theblog.mdluo.com/2018-02-11/heading-anchors-in-hexo/" target="_blank" rel="noopener">Hexo 里的标题锚点链接 | mdluo</a></p>
 
       
     </div>
@@ -438,7 +461,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Permalinks/" rel="tag"># Permalinks</a>
+            <a href="/tags/Anchor/" rel="tag"># Anchor</a>
+          
+            <a href="/tags/Markdown/" rel="tag"># Markdown</a>
           
         </div>
       
@@ -451,8 +476,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/aa0a190f/" rel="next" title="Scaffolds 與新增 Post">
-                <i class="fa fa-chevron-left"></i> Scaffolds 與新增 Post
+              <a href="/posts/117c70ea/" rel="next" title="Gulp 壓縮 Hexo Blog">
+                <i class="fa fa-chevron-left"></i> Gulp 壓縮 Hexo Blog
               </a>
             
           </div>
@@ -460,10 +485,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/117c70ea/" rel="prev" title="Gulp 壓縮 Hexo Blog">
-                Gulp 壓縮 Hexo Blog <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -629,7 +650,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#解決辦法"><span class="nav-number">1.</span> <span class="nav-text">解決辦法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-Hexo-abbrlink"><span class="nav-number">2.</span> <span class="nav-text">使用 Hexo-abbrlink</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安裝-hexo-abbrlink"><span class="nav-number">2.1.</span> <span class="nav-text">安裝 hexo-abbrlink</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#設定-yaml"><span class="nav-number">2.2.</span> <span class="nav-text">設定 yaml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重新渲染頁面"><span class="nav-number">2.3.</span> <span class="nav-text">重新渲染頁面</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#觀查-id-生成規則"><span class="nav-number">1.</span> <span class="nav-text">觀查 id 生成規則</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-Markdown-建立錨點"><span class="nav-number">2.</span> <span class="nav-text">使用 Markdown 建立錨點</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改樣式"><span class="nav-number">3.</span> <span class="nav-text">修改樣式</span></a></li></ol></div>
             
 
           </div>
@@ -819,9 +840,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://riemannac.github.io/posts/d3aa7087/';
-          this.page.identifier = 'posts/d3aa7087/';
-          this.page.title = 'Hexo-永久連結設定';
+          this.page.url = 'https://riemannac.github.io/posts/e346fae7/';
+          this.page.identifier = 'posts/e346fae7/';
+          this.page.title = '為標題增加錨點';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://RiemannBlog.disqus.com/embed.js';
