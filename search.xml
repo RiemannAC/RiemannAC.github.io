@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[GitHub Page 綁定 Namecheap 域名]]></title>
+    <url>%2Fposts%2F859f993a%2F</url>
+    <content type="text"><![CDATA[想更換 GitHub Page 的 domain name 找了幾家 DNS。我要的域名在 Namecheap 比較便宜，又有免費的 WhoisGuard 服務，個人使用上比較隱私就選擇了 Namecheap 購買域名購買域名的部份請參考其它教學，大致上挑喜歡的域名加入購物車結帳即可，一般使用不到其它付費選項 將域名連結 GitHub PageNamecheap 提供了設定文件 以下以這個 Blog 為例： 原本 Blog 的位址為 https://riemannac.github.io域名 riemann.blog 請自行更換成自己的位址和域名 在 Sidebar 點選 “Domain List” 在購買的域名那一列右側點選 “MANAGE” 點選圖擊的 Advanced DNS 點擊左下紅色的 ADD NEW RECORD 並新增四個 record 如下: 四個 A Record 都是指向 GitHub DNS Server IP 一般設定一到兩個即可，但這邊就照文件設定 CNAME Record 指向預連結的 GitHub Page 完成後儲存設定 Type Host Value TTL A Record @ 185.199.108.153 30 min A Record @ 185.199.109.153 Automatic A Record @ 185.199.110.153 Automatic A Record @ 185.199.111.153 Automatic CNAME Record www riemannac.github.io 30 min 刪除兩個預設的 Record 將 GitHub Page 綁定域名到 GitHub 專案 Setting 頁面 &gt; GitHub Pages &gt; Custom domain 填入申請的域名並按下 Save 儲存設定即可 下方的 Enforce HTTPS 一般幾個小時後便可以按下，然後網址就是 https 開頭了 上傳 CNAME 設定在 source 目錄下新增一個檔案 [~/blog/source] (✘ master) $ touch CNAME 檔案內容輸入域名 source/CNAME1riemann.blog 執行 hexo d -g 上傳後就會保留設定避免每次佈署後 CNAME 消失 參考資料實作 - 如何更改 Github-Page 的網域 | Kenny LiGitHub+Hexo 搭建个人网站详细教程 | echobits]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[為標題增加錨點]]></title>
     <url>%2Fposts%2Fe346fae7%2F</url>
     <content type="text"><![CDATA[HackMD 用習慣了，和 Hexo 的 Markdown 還是有些不同，編輯整理資料時有錨點還是比較方便，查了一下 Markdown 的語法，發現只使用 Markdown 的狀況，還是可以增加錨點 觀查 id 生成規則Markdown 不同版本都有些細節不同，先觀查 id 生成規則如下表： Header Identifier Header identifiers in HTML Header-identifiers-in-HTML Dogs?-in my house? Dogs--in-my-house [HTML], [S5], or [RTF]? HTML-S5-or-RTF 3. Applications 3-Applications 33 33 大小寫會被保留，符號會被去除，空格補上連字號 使用 Markdown 建立錨點原標題 ## 新增錨點 加上錨點 ## [新增錨點](#新增錨點) 需要按照 id 生成規將連結指向標題的 id 若命名不同錨點就會失效 如果錨點需要給定 “別名” 可參考此篇 Hexo 里的标题锚点链接 | mdluo ( 需要另外安裝套件 ) 修改樣式themes/next/source/css/_custom/custom.styl123456789101112131415161718// 自訂錨點樣式h1:nth-child(2),h2:nth-child(2), h3:nth-child(2), h4:nth-child(2), h5:nth-child(2), h6:nth-child(2) &#123; // 移除 a 預設下底線 border-bottom: none; // 新增錨點 Pseudo-elements &amp;:hover &#123; &amp;::before &#123; content: "#"; margin-left: -0.8em; position: absolute; &#125; &#125;&#125; 滑鼠移到標題上便會出現錨點樣式 # 參考資料Pandoc’s Markdown 語法中文翻譯 | tzengyuxioHexo 里的标题锚点链接 | mdluo]]></content>
