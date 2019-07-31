@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://riemann.blog/tags/index.html</loc>
+    
+    <lastmod>2019-07-31T01:12:12.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riemann.blog/categories/index.html</loc>
+    
+    <lastmod>2019-07-31T01:12:02.374Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://riemann.blog/posts/4a17b156/</loc>
     
     <lastmod>2019-07-30T21:46:17.939Z</lastmod>
@@ -47,20 +61,6 @@
     <loc>https://riemann.blog/posts/5eca9ba7/</loc>
     
     <lastmod>2019-07-25T04:01:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://riemann.blog/categories/index.html</loc>
-    
-    <lastmod>2019-07-21T22:24:43.458Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://riemann.blog/tags/index.html</loc>
-    
-    <lastmod>2019-07-21T22:19:49.886Z</lastmod>
     
   </url>
   
